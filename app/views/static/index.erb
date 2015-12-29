@@ -1,3 +1,7 @@
+<% unless @error.nil? %>
+	<%= @error %>
+<% end %>
+
 <form action="/urls" method="post">
 	Enter URL:
 	<input type="text" name="long_url">
