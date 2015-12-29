@@ -1,0 +1,9 @@
+<h3>Congrats</h3>
+
+<p>Here is your shortened url</p>
+
+<% Url.all.each do |url|
+print url %>
+<% end %>
+
+<p>http://localhost:9393/<%= @url.short_url %></p>
